@@ -131,6 +131,10 @@ build = {
     ["kong.plugins.basic-auth.api"] = "kong/plugins/basic-auth/api.lua",
     ["kong.plugins.basic-auth.daos"] = "kong/plugins/basic-auth/daos.lua",
 
+    ["kong.plugins.helloworld.handler"] = "kong/plugins/custom_plugin/handler.lua",
+    ["kong.plugins.helloworld.access"] = "kong/plugins/custom_plugin/access.lua",
+    ["kong.plugins.helloworld.schema"] = "kong/plugins/custom_plugin/schema.lua",
+
     ["kong.plugins.key-auth.migrations.cassandra"] = "kong/plugins/key-auth/migrations/cassandra.lua",
     ["kong.plugins.key-auth.migrations.postgres"] = "kong/plugins/key-auth/migrations/postgres.lua",
     ["kong.plugins.key-auth.handler"] = "kong/plugins/key-auth/handler.lua",
